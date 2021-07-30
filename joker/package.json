@@ -7,6 +7,13 @@
     "scripts": {
         "build": "build.assembly"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZhangChuanHui/joker.front.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ZhangChuanHui/joker.front/issues"
+    },
     "author": "Zohar",
     "license": "MIT",
     "devDependencies": {
