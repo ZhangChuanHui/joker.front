@@ -1,0 +1,19 @@
+{
+    "name": "joker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bundle.js",
+    "types": "src/index.ts",
+    "scripts": {
+        "build": "build.assembly"
+    },
+    "author": "Zohar",
+    "license": "MIT",
+    "devDependencies": {
+        "@joker/ast": "1.0.0",
+        "@joker/core": "1.0.0",
+        "@joker/shared": "1.0.0",
+        "build.assembly": "1.0.0",
+        "typescript": "^4.0.2"
+    }
+}

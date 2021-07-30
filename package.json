@@ -1,0 +1,14 @@
+{
+    "name": "joker.front",
+    "version": "1.0.0",
+    "description": "joker.front前端核心框架",
+    "private": true,
+    "workspaces": [
+        "test",
+        "joker",
+        "commands/*",
+        "packages/*"
+    ],
+    "author": "Zohar",
+    "license": "MIT"
+}

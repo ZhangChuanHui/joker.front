@@ -1,0 +1,43 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test:all": "jest",
+        "test.core.component.index": "jest src/core/component/index.test.ts",
+        "test.core.component.register": "jest src/core/component/register.test.ts",
+        "test.core.component.extend": "jest src/core/component/extend.test.ts",
+        "test.core.component.section": "jest src/core/component/section.test.ts",
+        "test.core.component.event": "jest src/core/component/event.test.ts",
+        "test.core.component.mixins": "jest src/core/component/mixins.test.ts",
+        "test.render-html.index": "jest src/render-html/index.test.ts",
+        "test.ast.attr": "jest src/ast/attr.test.ts",
+        "test.ast.event": "jest src/ast/event.test.ts",
+        "test.ast.express": "jest src/ast/express.test.ts",
+        "test.core.observer.observer": "jest src/core/observer/observer.test.ts",
+        "test.core.observer.watcher": "jest src/core/observer/watcher.test.ts",
+        "test.core.parser.cmd.function": "jest src/core/parser/cmd.function.test",
+        "test.core.parser.cmd.list": "jest src/core/parser/cmd.list.test.ts",
+        "test.core.parser.cmd.if": "jest src/core/parser/cmd.if.test.ts",
+        "test.core.parser.element": "jest src/core/parser/element.test.ts",
+        "test.core.parser.other": "jest src/core/parser/other.test.ts",
+        "test.shared.utils": "jest src/shared/utils.test.ts",
+        "test.shared.ioc": "jest src/shared/ioc.test.ts",
+        "test.template.compiler": "jest src/template-compiler/parser.test.ts",
+        "test.template.compiler.html": "jest src/template-compiler/parser-html.test.ts"
+    },
+    "author": "Zohar",
+    "license": "MIT",
+    "devDependencies": {
+        "@joker/core": "1.0.0",
+        "@joker/ast": "1.0.0",
+        "@joker/shared": "1.0.0",
+        "@joker/template-compiler": "1.0.0",
+        "@joker/render-html": "1.0.0",
+        "@types/jest": "^26.0.21",
+        "jest": "^26.4.2",
+        "ts-jest": "^26.4.0",
+        "typescript": "^4.0.2"
+    }
+}
