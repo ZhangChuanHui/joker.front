@@ -29,3 +29,66 @@ Joker.front 旨在提供一套渐进式前端框架，提供多端运行能力�
 ## 阶段
 
 核心库处于内侧阶段，cli 及可视化编辑器将在近期与公测版本一起推出，敬请期待
+
+## 抢先看
+
+`
+
+<div @click="点击事件"  attr1="@(sss+1)" @tap.stop.prevent.once.self="tab事件(其他参数)">
+    @变量
+    @方法(参数)
+    @if (true)
+    {
+        <p>我是一句话</p>
+        <p>
+            @变量
+            @方法(1)
+            @(1+1)
+
+        </p>
+    }
+    else if{
+        <p>我是else if</p>
+    }
+    else
+    {
+        <p>我是else</p>
+    }
+
+
+    @for (let i = 0; i < 数组.length; i++)
+    {
+        <p>@数组[i]</p>
+
+    }
+
+    @for(let index in 数组)
+    {
+        <p>suoyin :@index value: @数组[index]</p>
+    }
+
+
+    @for (let item of 对象)
+    {
+        <p>@item.a</p>
+    }
+
+    @for (let(index, item) in 数组)
+    {
+        <p>索引：@index 项：@item</p>
+    }
+
+</div>
+<ChildrenComponent @click="组件回执方法" prop1="@变量">
+    @section("id",内容参数1,内容参数2){
+        <p>内容参数1</p>
+        <p>@父组件变量</p>
+    }
+</ChildrenComponent>
+
+<!--内容部分-->
+
+@RenderSection()
+
+@RenderSection("id",@对外传参)
+`
