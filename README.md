@@ -32,8 +32,7 @@ Joker.front 旨在提供一套渐进式前端框架，提供多端运行能力�
 
 ## 抢先看
 
-`
-
+```
 <div @click="点击事件"  attr1="@(sss+1)" @tap.stop.prevent.once.self="tab事件(其他参数)">
     @变量
     @方法(参数)
@@ -91,4 +90,6 @@ Joker.front 旨在提供一套渐进式前端框架，提供多端运行能力�
 @RenderSection()
 
 @RenderSection("id",@对外传参)
-`
+```
+
+
